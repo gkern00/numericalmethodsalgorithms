@@ -1,0 +1,3 @@
+#This function solves an integral for a an inputted set of data points by using Simpson's Method, and the trapezoidal method if applicable.
+#The user inputted variables are a row vector with evenly spaced x data points and a row vector with y data points. 
+#The main variables used in the function are m (the length of x) and n (the length of y).
