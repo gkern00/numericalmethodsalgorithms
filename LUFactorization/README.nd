@@ -1,0 +1,13 @@
+#Performs LU decomposition/facorization when an A matrix is inputted.
+#
+#This function performs LU decomposition and produces an lower triangular
+#matrix, and upper triangular matrix, and a pivot matrix through several
+#for loops. It contains some error checking. There is a known error
+#involving subtractive cancellation and roundoff error, leading to some
+#errors when L and U matrices are multiplied together and then checked
+#against A.
+
+#A = inputted matrix
+#L = lower triangular matrix
+#U = uppper triangular matrix
+#P = pivot matrix
