@@ -1,0 +1,14 @@
+This code does not function correctly.
+
+#Description
+This function calculates the center of a function based on the bisection method
+
+#Inputs and Outputs
+func = name of function
+xl, xu = upper and lower guess
+es = maximum desired relative error
+maxit = maximum number of iterations
+root = real root
+fx = value at root
+ea = apprx relative error
+iter = number of iterations
